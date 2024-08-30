@@ -84,9 +84,11 @@ nav a{
     background-color: grey;
     text-align: center;
     padding: 10px 10px;
-    width: 25%;
+    /* width: 30%; */
+    width: 30%;
     border-radius: 15px;
     display: inline-block;
+    margin: 5px;
 }
 .tarjeta p{
     text-align: left;
@@ -98,10 +100,43 @@ nav a{
     border-radius: 15px;
     padding: 10px 30px;
 }
-.tarjeta img{
+.tarjeta img, .tarjetaFlecha img{
     height: 200px;
     
 }
 .contenedorTarjeta{
     display: inline;
+    
+    
+}
+.contenedorPTarjeta{
+    /* background-color: aqua; */
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+/* Para la seccion donde tenemos imagenes y flechas */
+.tarjetaFlecha{
+    /* background-color: grey; */
+    text-align: center;
+    padding: 10px 10px;
+    /* width: 30%; */
+    width: 20%;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 5px;
+}
+.flecha{
+    width: 10%;
+    background:none;
+    
+}
+.flecha img{
+    width: 50%;
+}
+figure{
+    background-color: grey;
+    width: 100%;
+    margin: auto;
+    border-radius: 15px;
 }
